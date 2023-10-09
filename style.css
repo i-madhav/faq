@@ -1,0 +1,66 @@
+/* Reset some default styles for the body and HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+/* Create a container to hold the centered div */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* 100% of the viewport height */
+
+    background-color: antiquewhite;
+}
+
+/* Style the centered div */
+.faqBox {
+    width: 30rem; /* Set the desired width */ 
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px;
+}
+
+.faq{
+    background-color: #f0f0f0;
+}
+
+.faq:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h3{
+    margin-left: 1rem;
+}
+
+.btn{
+    height: 1rem;
+    margin-right: 1rem;
+    padding: .5rem;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(206, 204, 204);
+}
+
+.answer{
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+.hide{
+    display: none;
+}
